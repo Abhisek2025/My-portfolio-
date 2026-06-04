@@ -6,14 +6,14 @@ export const PERSONAL_INFO = {
   subtitle: 'Building flawless digital products combining rigorous backends with state-of-the-art frontends.',
   tagline: 'Designing immersive web experiences that load fast, look brilliant, and scale elegantly.',
   shortBio: 'I am a passionate software engineer specializing in building high-performance web applications. Focused on UI details, elegant animations, robust API design, and creating delightful user journeys from concept to production deployment.',
-  avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=260&h=260', // Elegant professional placeholder portraits
-  location: 'Kolkata, India / Available Worldwide',
+  avatarUrl: 'https://photos.app.goo.gl/6V1jsEbTqv7xCAZRA?auto=format&fit=crop&q=80&w=260&h=260', // Elegant professional placeholder portraits
+  location: 'Hyderabad, India / Available Worldwide',
   email: 'abhisekkoyal334@gmail.com',
   socials: {
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    github: 'github.com/Abhisek2025',
+    linkedin: 'inkedin.com/in/abhisek-koyal-0528a3288',
     twitter: 'https://twitter.com',
-    resume: '#',
+    resume: 'https://github.com/Abhisek2025/My-CV.git',
   },
   metrics: [
     { label: 'Years Experience', value: '5+' },
