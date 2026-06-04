@@ -1,0 +1,158 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Nova AI Design Studio",
+      "description": "An interactive, collaborative canvas engine with integrated Generative AI tools and instant vector exports.",
+      "longDescription": "Nova AI is a real-time multiplayer vector editor designed for modern designers. Combining canvas performance with advanced server-side Gemini API generation, users can create layered illustrations, iterate drafts, and export designs instantly.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Canvas API",
+        "Gemini API",
+        "Tailwind CSS"
+      ],
+      "image": "https://picsum.photos/seed/nova-studio/800/600",
+      "link": "https://github.com",
+      "github": "https://github.com",
+      "category": "ai",
+      "featured": true,
+      "metrics": "+45% creation speed"
+    },
+    {
+      "id": "2",
+      "title": "Aether Telemetry Dashboard",
+      "description": "High-throughput visual analytics and system monitoring dashboard with interactive charts and low-latency rendering.",
+      "longDescription": "Aether aggregates distributed server logs and active processes, outputting clean, interactive visualization nodes. Features dense custom charts, customizable grid layouts, and lazy-loaded WebGL layouts for heavy datasets.",
+      "tags": [
+        "React",
+        "D3.js",
+        "Vite",
+        "Express",
+        "Tailwind CSS",
+        "WebSockets"
+      ],
+      "image": "https://picsum.photos/seed/telemetry/800/600",
+      "link": "https://github.com",
+      "github": "https://github.com",
+      "category": "web",
+      "featured": true,
+      "metrics": "< 15ms render loop"
+    },
+    {
+      "id": "3",
+      "title": "Helix Mobile Commerce",
+      "description": "An elegant, fluid web e-commerce framework specialized for mobile devices with high-fidelity swipe gestures.",
+      "longDescription": "Helix is a React Native-inspired mobile web experience that redefines shopping on smaller displays. Crafted with pure native gesture bounds, cached product states, and a highly customizable design layout.",
+      "tags": [
+        "React",
+        "Motion",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Stripe API"
+      ],
+      "image": "https://picsum.photos/seed/helix-mobile/800/600",
+      "link": "https://github.com",
+      "github": "https://github.com",
+      "category": "mobile",
+      "featured": false,
+      "metrics": "98% Checkout Retention"
+    },
+    {
+      "id": "4",
+      "title": "Scribe Smart Note System",
+      "description": "A cloud-native rich text editor feature-packed with semantic categorizations and contextual summary tools.",
+      "longDescription": "Scribe parses handwritten, voice, or typed documents to dynamically map ideas into mind-map nodes. Uses smart vector embeddings to group concepts and suggest references securely.",
+      "tags": [
+        "TypeScript",
+        "Fastify",
+        "PostgreSQL",
+        "Tiptap Editor",
+        "S3 Storage"
+      ],
+      "image": "https://picsum.photos/seed/scribenotes/800/600",
+      "link": "https://github.com",
+      "github": "https://github.com",
+      "category": "ai",
+      "featured": false,
+      "metrics": "12k Monthly Active Users"
+    }
+  ],
+  "discussions": [
+    {
+      "id": "disc_1",
+      "clientName": "Alice Henderson",
+      "clientEmail": "alice@innovate.co",
+      "budget": "$5,000 - $10,000",
+      "projectType": "ai",
+      "message": "We are looking to implement a smart custom recommendation pipeline parsing consumer product tags. Needs to load seamlessly in React with rapid throughput.",
+      "status": "in-progress",
+      "createdAt": "2026-06-02T05:41:21.493Z",
+      "replies": [
+        {
+          "id": "rep_1",
+          "sender": "admin",
+          "message": "Hello Alice, that sounds like a fantastic venture! I can map out some Gemini AI embeddings or localized fine-tuning options for optimal latency metrics. Let us discuss the specific dataset size.",
+          "timestamp": "2026-06-03T05:41:21.495Z"
+        }
+      ]
+    },
+    {
+      "id": "disc_2",
+      "clientName": "Richard Gable",
+      "clientEmail": "richard@hyperion.io",
+      "budget": "$10,000+",
+      "projectType": "web",
+      "message": "Need a fast SaaS corporate portal from scratch with high-contrast elegant layouts, dark slate theme, and smooth transition views. Absolute performance is critical.",
+      "status": "new",
+      "createdAt": "2026-06-04T01:41:21.495Z",
+      "replies": []
+    }
+  ],
+  "analytics": {
+    "visits": [
+      {
+        "date": "29 May",
+        "visits": 61,
+        "inquiries": 0
+      },
+      {
+        "date": "30 May",
+        "visits": 22,
+        "inquiries": 1
+      },
+      {
+        "date": "31 May",
+        "visits": 32,
+        "inquiries": 0
+      },
+      {
+        "date": "1 Jun",
+        "visits": 40,
+        "inquiries": 2
+      },
+      {
+        "date": "2 Jun",
+        "visits": 33,
+        "inquiries": 2
+      },
+      {
+        "date": "3 Jun",
+        "visits": 28,
+        "inquiries": 2
+      },
+      {
+        "date": "4 Jun",
+        "visits": 32,
+        "inquiries": 1
+      }
+    ],
+    "totalVisits": 384,
+    "projectViews": {
+      "1": 112,
+      "2": 89
+    }
+  },
+  "adminPasswordHash": "password123"
+}
