@@ -26,56 +26,65 @@ export const PERSONAL_INFO = {
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Nova AI Design Studio',
-    description: 'An interactive, collaborative canvas engine with integrated Generative AI tools and instant vector exports.',
-    longDescription: 'Nova AI is a real-time multiplayer vector editor designed for modern designers. Combining canvas performance with advanced server-side Gemini API generation, users can create layered illustrations, iterate drafts, and export designs instantly.',
-    tags: ['React', 'TypeScript', 'Node.js', 'Canvas API', 'Gemini API', 'Tailwind CSS'],
-    image: 'https://picsum.photos/seed/nova-studio/800/600',
-    link: 'https://github.com',
-    github: 'https://github.com',
-    category: 'ai',
+    title: 'Blood Bank Management System',
+    description:
+      'A full-stack blood bank management platform for managing donors, hospitals, organizations, and blood inventory.',
+
+    longDescription:
+      'Blood Bank Management System (BBMS) is a MERN Stack application designed to streamline blood donation and inventory management. It includes secure authentication, role-based dashboards, donor and hospital management, blood stock tracking, and analytics for efficient healthcare coordination.',
+
+    tags: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'JWT',
+      'Bootstrap'
+    ],
+
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89eiWkDp4lwS-a0EBdCb4epxR4E_5l8F40A&s',
+
+    link: 'https://bbms-client.onrender.com/',
+
+    github: 'https://github.com/Abhisek2025',
+
+    category: 'web',
+
     featured: true,
-    metrics: '+45% creation speed'
+
+    metrics: 'Role-Based Dashboard'
   },
+
   {
     id: '2',
-    title: 'Aether Telemetry Dashboard',
-    description: 'High-throughput visual analytics and system monitoring dashboard with interactive charts and low-latency rendering.',
-    longDescription: 'Aether aggregates distributed server logs and active processes, outputting clean, interactive visualization nodes. Features dense custom charts, customizable grid layouts, and lazy-loaded WebGL layouts for heavy datasets.',
-    tags: ['React', 'D3.js', 'Vite', 'Express', 'Tailwind CSS', 'WebSockets'],
-    image: 'https://picsum.photos/seed/telemetry/800/600',
-    link: 'https://github.com',
-    github: 'https://github.com',
+    title: 'MyBookHub',
+
+    description:
+      'A modern book management and discovery platform for readers and book enthusiasts.',
+
+    longDescription:
+      'MyBookHub is a full-stack web application that enables users to browse, organize, and manage books through a clean and responsive interface. The platform focuses on user-friendly design, efficient book categorization, and seamless navigation while showcasing modern MERN Stack development practices.',
+
+    tags: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Tailwind CSS'
+    ],
+
+    image: 'https://yi-files.yellowimages.com/products/1007000/1007769/1689458-full.jpg',
+
+    link: 'https://mybookhub-13zh.onrender.com/',
+
+    github: 'https://github.com/Abhisek2025',
+
     category: 'web',
+
     featured: true,
-    metrics: '< 15ms render loop'
-  },
-  {
-    id: '3',
-    title: 'Helix Mobile Commerce',
-    description: 'An elegant, fluid web e-commerce framework specialized for mobile devices with high-fidelity swipe gestures.',
-    longDescription: 'Helix is a React Native-inspired mobile web experience that redefines shopping on smaller displays. Crafted with pure native gesture bounds, cached product states, and a highly customizable design layout.',
-    tags: ['React', 'Motion', 'Tailwind CSS', 'Redux Toolkit', 'Stripe API'],
-    image: 'https://picsum.photos/seed/helix-mobile/800/600',
-    link: 'https://github.com',
-    github: 'https://github.com',
-    category: 'mobile',
-    featured: false,
-    metrics: '98% Checkout Retention'
-  },
-  {
-    id: '4',
-    title: 'Scribe Smart Note System',
-    description: 'A cloud-native rich text editor feature-packed with semantic categorizations and contextual summary tools.',
-    longDescription: 'Scribe parses handwritten, voice, or typed documents to dynamically map ideas into mind-map nodes. Uses smart vector embeddings to group concepts and suggest references securely.',
-    tags: ['TypeScript', 'Fastify', 'PostgreSQL', 'Tiptap Editor', 'S3 Storage'],
-    image: 'https://picsum.photos/seed/scribenotes/800/600',
-    link: 'https://github.com',
-    github: 'https://github.com',
-    category: 'ai',
-    featured: false,
-    metrics: '12k Monthly Active Users'
-  },
+
+    metrics: 'Responsive Design'
+  }
 ];
 
 export const SKILLS: SkillCategory[] = [
@@ -147,7 +156,7 @@ export const EXPERIENCES: Experience[] = [
     period: '2021 - 2022',
     role: 'Frontend Engineer',
     company: 'Apex Code Ventures',
-    location: 'Kolkata, IN',
+    location: 'Hyderabad, IN',
     description: 'Developed mobile-first, high-performance UI systems, pixel-perfecting visual mockups with high interactivity.',
     achievements: [
       'Delivered 15+ completely responsive client websites operating with rapid loading times.',
